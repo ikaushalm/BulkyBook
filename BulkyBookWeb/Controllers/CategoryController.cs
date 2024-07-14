@@ -22,7 +22,7 @@ namespace BulkyBookWeb.Controllers
         {
             return View();
         }
-        [HttpPost]
+        [HttpPost()]
 		[ValidateAntiForgeryToken]
 		public IActionResult Create(Catergory obj)
         {
